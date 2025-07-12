@@ -13,7 +13,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5px 300px;
+    margin: 10px 300px;
     
 } 
 .big{
@@ -67,5 +67,42 @@ width: 403px;}
 .action{
     display: flex;
     justify-content: space-between; 
-    margin: 120px 300px;
+    margin: 120px 350px;
 }
+.caption{font-size: 50px;
+font-weight: bold;
+text-align: center;}
+.productive-data{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4e47ff;
+}
+.productive-item{
+    display: flex;
+    justify-content: center;
+    gap: 210px;
+}
+.productive{
+    background-color: #d1d1d9;
+    padding: 50px 80px;
+    margin:200px 350px;
+}
+.picture{
+    border-radius: 50%;
+}
+.side{align-items: center;
+display: flex;
+gap: 5px;}
+.gray{color: gray;}
+.feedback{ 
+    display: flex;
+     
+ justify-content: center;
+    gap: 15px;
+}
+.feedback-border{background-color: #d1d1d9;
+padding: 10px;
+
+border-radius: 20px;
+}
+    
