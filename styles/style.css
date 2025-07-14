@@ -33,9 +33,9 @@ nav{
 .bigger{
     font-size: 70px;
     
-    margin-top: 300px;
+    padding-top: 270px;
 }
-.btn{
+.button{
     font-size: 15px;
     border-radius: 10px;
     padding: 10px;
@@ -43,7 +43,7 @@ nav{
 
     
 }
-.header{
+header{
     background-image: url('../Assets/Hero-bg.png');
     
 }
@@ -57,7 +57,7 @@ nav{
     color: grey;
     
 }
- .btn-2{width: 170px;}
+ .button-2{width: 170px;}
  .flow{ border-radius: 48px;
 height: 328px;
 width: 403px;}
@@ -105,16 +105,17 @@ border-radius: 20px;
 .tiny{color: grey;
 text-align: center;
 font-size: 20px;}
-.btn-3{text-align:center ;}
+.button-3{text-align:center ;}
 .radius{border-radius: 20px;
 width: 1300px;}
 #large{font-size: 8em;
 font-weight: bolder;}
 .break{margin-top: 25px;}
-.form{ display: flex;
+.form-fillup{ display: flex;
 margin: 200px 250px;
 gap: 400px;
 }   
+form label,form button{display: block;}
 form input[type="text"],form input[type="email"], form textarea{height: 60px;
 width: 100%;
 font-size: 20px;
@@ -122,6 +123,7 @@ padding: 10px;
 border-radius: 8px;
 border:none}
 form textarea{height: 150px;}
+
 .button-4{ color: white;
 background-color: #4e47ff;
 width: 100%;
